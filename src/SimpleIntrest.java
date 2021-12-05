@@ -36,7 +36,7 @@ public class SimpleIntrest extends JFrame implements ActionListener {
         Result.setBounds(100,210,100,20);
         add(Result);
 
-        buttonSimple = new JButton("Simple Intrest is: ");
+        buttonSimple = new JButton("Simple Menu.Intrest is: ");
         buttonSimple.setBounds(100,240,200,20);
         add(buttonSimple);
 

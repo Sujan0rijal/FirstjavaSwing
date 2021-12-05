@@ -1,3 +1,5 @@
+package Menu;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -9,7 +11,7 @@ public class LoginPage extends JFrame {
 
 
     LoginPage() {
-        setTitle("Login Registration Page");
+        setTitle("Login Menu.Registration Page");
 
 
         lbl = new JLabel("login Page");

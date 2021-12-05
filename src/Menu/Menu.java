@@ -1,3 +1,5 @@
+package Menu;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -19,13 +21,13 @@ public class Menu extends JFrame implements ActionListener {
         buttonlogin.setBackground(Color.blue);
         add(buttonlogin);
 
-        buttonregistration = new JButton("Registration");
+        buttonregistration = new JButton("Menu.Registration");
         buttonregistration.setBounds(40,60,150,20);
         buttonregistration.setForeground(Color.black);
         buttonregistration.setBackground(Color.yellow);
         add(buttonregistration);
 
-        buttonsimpleintrest = new JButton("Simple Intrest");
+        buttonsimpleintrest = new JButton("Simple Menu.Intrest");
         buttonsimpleintrest.setBounds(40,90,150,20);
         buttonsimpleintrest.setForeground(Color.black);
         buttonsimpleintrest.setBackground(Color.green);

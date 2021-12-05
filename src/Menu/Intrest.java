@@ -1,3 +1,5 @@
+package Menu;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,7 +34,7 @@ public class Intrest extends JFrame implements ActionListener {
         texttime.setBounds(100,180,100,20);
         add(texttime);
 
-        buttonSimple = new JButton("Simple Intrest is: ");
+        buttonSimple = new JButton("Simple Menu.Intrest is: ");
         buttonSimple.setBounds(100,240,200,20);
         add(buttonSimple);
 
@@ -53,7 +55,7 @@ public class Intrest extends JFrame implements ActionListener {
         if (e.getSource().equals(buttonSimple)){
             d = a * b * c /100;
             Integer result = d;
-            JOptionPane.showMessageDialog(null,"Simple Intrest is  " + d );
+            JOptionPane.showMessageDialog(null,"Simple Menu.Intrest is  " + d );
             dispose();
         }
         else{
